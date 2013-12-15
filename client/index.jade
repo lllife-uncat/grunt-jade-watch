@@ -1,0 +1,40 @@
+html
+	head
+		script(src="../bower_components/PixelKit-Bootstrap-UI-Kits/dark-velvet/dark-velvet-css/js/libs/modernizr.min.js")
+		script(src="../bower_components/PixelKit-Bootstrap-UI-Kits/dark-velvet/dark-velvet-css/js/libs/jquery-1.10.0.js")
+		script(src="../bower_components/PixelKit-Bootstrap-UI-Kits/dark-velvet/dark-velvet-css/js/libs/jquery-ui.min.js")
+		script(src="../bower_components/PixelKit-Bootstrap-UI-Kits/dark-velvet/dark-velvet-css/js/libs/bootstrap.min.js")
+		link(rel="stylesheet", href="../bower_components/PixelKit-Bootstrap-UI-Kits/dark-velvet/dark-velvet-css/css/bootstrap.css")
+		link(rel="stylesheet", href="../bower_components/PixelKit-Bootstrap-UI-Kits/dark-velvet/dark-velvet-css/style.css")
+	body
+
+		div(class="" style="padding:2px;")
+			br
+			div(class="container")
+				label(class="label label-primary", for="name") Name
+				input(type="text", placeholder="Enter name.", id="name", class="form-control")
+			br
+			div(class="container")
+				label(class="label label-primary", for="email") Email
+				input(type="text", placeholder="Enter email", id="email" class="form-control", max="10")
+			br
+
+			div(class="container")
+				a(class="btn btn-small") 
+					span Login
+				span  
+				a(class="btn btn-small") 
+					span Clear
+			table(class="table table-border")
+				thead(class="")
+					tr
+						td > Name <
+						td > Email <
+				tbody
+					tr
+						td Somnuk
+						td Wongkhan
+					tr
+						td Beer
+						td Wongkhan
+		div

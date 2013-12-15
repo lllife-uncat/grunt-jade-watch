@@ -1,0 +1,14 @@
+{
+  "name": "PixelKit-Bootstrap-UI-Kits",
+  "homepage": "https://github.com/Pixelkit/PixelKit-Bootstrap-UI-Kits",
+  "_release": "45145edd17",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "45145edd17e367c4b55b3c81085686ca26771542"
+  },
+  "_source": "git://github.com/Pixelkit/PixelKit-Bootstrap-UI-Kits.git",
+  "_target": "*",
+  "_originalSource": "PixelKit-Bootstrap-UI-Kits",
+  "_direct": true
+}
